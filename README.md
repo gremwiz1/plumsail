@@ -1,24 +1,22 @@
 # plumsail
+Виджет погоды
 
-## Project setup
-```
-yarn install
-```
+## Использование виджета на своих проектах
+Вставьте в свой html body следующий код:  
+<div id="app">  
+ <weather-widget></weather-widget>  
+</div>  
+<script type="text/javascript" src="http://gremwiz.beget.tech/weather-widget.js"></script>  
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
 
-### Compiles and minifies for production
-```
-yarn build
-```
+## Локальный Запуск
+1. Клонируйте к себе репозиторий - выполните после npm install  
+2. Нужно получить апи ключ для этого выполните следующие шаги
+3. Перейдите на сайт OpenWeatherMap: Откройте веб-сайт OpenWeatherMap.[https://openweathermap.org/]
+4. Зарегистрируйтесь или войдите в учетную запись: Если у вас еще нет учетной записи, вам потребуется создать ее. Если у вас уже есть учетная запись, просто войдите в нее.
+5. Перейдите в раздел API-ключей: Обычно это делается через панель управления или нажатием на ваше имя пользователя в верхнем правом углу, а затем выбором соответствующего раздела в выпадающем меню.
+6. Выберите нужный вам API или создайте новый ключ: Вы можете выбрать уже существующий API-ключ или создать новый, следуя инструкциям на сайте.
+7. Скопируйте ваш API-ключ
+8. Перед тем как запускать приложение - создайте файл в корне .env и пропишите в него свой апи ключ   VUE_APP_API_KEY=  
+9. запуск осушествляется командой npm serve
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
