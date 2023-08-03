@@ -3,11 +3,11 @@
 
 ## Использование виджета на своих проектах
 Вставьте в свой html body следующий код:  
-<div id="app">  
+```<div id="app">  
  <weather-widget></weather-widget>  
 </div>  
 <script type="text/javascript" src="http://gremwiz.beget.tech/weather-widget.js"></script>  
-
+```
 
 ## Локальный Запуск
 1. Клонируйте к себе репозиторий - выполните после npm install  
